@@ -1,0 +1,41 @@
+/* 头部导航 */
+header{
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    left:0;
+    top:0;
+    font-size: 12px;
+    min-width: 1280px;
+    background: url(../img/topbar.png) repeat-x;
+}
+header .content{
+    max-width: 1560px;
+    min-width: 960px;
+    height: 50px;
+    margin: 0px auto;
+    position: relative;
+    z-index: 299;
+    padding: 0px 20px;
+}
+header .content .log{
+    display: block;
+    width: 242px;
+    height: 49px;
+    /*写入文字，主要是为了权重，让文字挪走就可以了  利用text-indent文本缩进，缩到很远的地方就隐藏了*/
+    text-indent: -999em;
+    background:url('../img/logo.png') no-repeat;
+    margin:0px 0px 0px -51px;
+}
+
+header .nav{
+    position: relative;
+    z-index: 299;
+}
+header .nav li{
+    float: left;
+}
+
+header .nav li a{
+    color: rgb(204, 204, 204);
+}

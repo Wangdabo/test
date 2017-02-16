@@ -1,0 +1,1010 @@
+.body{
+    background:#fff;
+}
+.footer{
+    background:#181818;
+    margin:0;
+}
+.blackBox{
+    
+    background: #151515;
+    padding-top:40px;
+    padding-bottom:16px;
+}
+.mv_mianBox{
+    width:1200px;
+    margin:0 auto;
+    position:relative;
+}
+.mv_resize{
+    width:1200px;
+    height:674px;
+    margin:0 auto;
+    position:relative;
+}
+.mv{
+    width:100%;
+    height:100%;
+}
+.mv_1366{
+    width:1000px;
+    height:563px;
+}
+.index_focus_pre{
+    left:-80px;
+    top:260px;
+}
+.index_focus_next{
+    right:-80px;
+    top:260px;
+}
+.mvInfo>div{
+    overflow:hidden;
+}
+.mvInfo_row01_left{
+    float:left;
+    font-size:20px;
+    color:#fff;
+    line-height: 40px;
+}
+.mvInfo_row01_left i{
+    font-size:16px;
+    color:#27d5bf;
+}
+.mvInfo_row01_right{
+    color:#9b9b9b;
+    line-height: 40px;
+    float:right;
+}
+.mvInfo_row01_right i{
+    color:#d2d2d2;
+}
+.mvInfo_row02>h3{
+    float:left;
+    color:#fff;
+    font-size:16px;
+    line-height: 36px;
+    width:850px;
+}
+.mvInfo_row02>h3>a{
+    color:#fff;
+}
+.mvInfo_row02>h3>a:hover{
+    color:#fff;
+    text-decoration: underline;
+}
+.mvInfo_row02>h3>i,.mvInfo_row02>h3>i>a{
+    color:#27d5bf;
+}
+.mvInfo_row02>h3>i>a:hover{
+    text-decoration: underline;
+}
+.mvInfo_row02>p>i{
+    color:#27d5bf;
+}
+.mvInfo_row02 ul{
+    float:right;
+}
+.mvInfo_row02 ul li{
+    float:left;
+    background: #373737;
+    margin-left:1px;
+    height:36px;
+    line-height: 36px;
+    color:#9b9b9b;
+    width:82px;
+    cursor:pointer;
+}
+.mvInfo_row02 ul li a{
+    color:#9b9b9b;
+}
+.mvInfo_row02 ul li:hover{
+    background:#27d5bf ;
+    color:#fff;
+}
+.mvInfo_row02 ul li:hover a{
+    color:#fff;
+}
+.mvInfo_row02 ul li.li_phone{
+    width:100px;
+}
+.mvInfo_row02 ul li span{
+    width:30px;
+    height:30px;
+    vertical-align: middle;
+    float:left;
+    margin:3px 0 0 6px;
+}
+.mvInfo_row02 ul .li_phone span{
+    width:20px;
+}
+.li_phone span{
+    background: url("play_icon.png")/*tpa=http://s.c.yinyuetai.com/v2/images/app/playlist/play_icon.png*/ no-repeat;
+    background-position:-8px 0px;
+}
+.li_keep span{
+    background: url("play_icon.png")/*tpa=http://s.c.yinyuetai.com/v2/images/app/playlist/play_icon.png*/ no-repeat;
+    background-position:0px -30px;
+}
+.li_keep .text, .li_kept .text{
+    display:none;
+}
+.li_kept span{
+    background: url("play_icon.png")/*tpa=http://s.c.yinyuetai.com/v2/images/app/playlist/play_icon.png*/ no-repeat;
+    background-position:0px -240px;
+}
+.li_reward span{
+    background: url("play_icon.png")/*tpa=http://s.c.yinyuetai.com/v2/images/app/playlist/play_icon.png*/ no-repeat;
+    background-position:0px -60px;
+}
+.li_load span{
+    background: url("play_icon.png")/*tpa=http://s.c.yinyuetai.com/v2/images/app/playlist/play_icon.png*/ no-repeat;
+    background-position:0px -90px;
+}
+.li_reward .text{
+    color:#fff;
+    display:none;
+}
+.mvInfo_row02 ul .li_phone:hover span{
+    background-position:-8px -120px;
+}
+.mvInfo_row02 ul .li_keep:hover span{
+    background-position:0px -150px;
+}
+.mvInfo_row02 ul .li_kept:hover span{
+    background-position:0px -270px;
+}
+.mvInfo_row02 ul .li_reward:hover span{
+    background-position:0px -180px;
+}
+.mvInfo_row02 ul .li_load:hover span{
+    background-position:0px -210px;
+}
+.mvInfo_row03{
+    margin-top:5px;
+}
+.mvInfo_row03 .v_share{
+    float:left;
+}
+.v_share .text{
+}
+.v_share_link{
+    margin-top:0;
+}
+.ico20_v_unfold {
+    display: inline-block;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    background: url("ico20_1113.png")/*tpa=http://s.c.yinyuetai.com/v2/images/base/ico/ico20_1113.png*/ 0 -320px no-repeat;
+    width: 20px;
+    height: 20px;
+    margin-top:0;
+}
+.ico20_v_unfold:hover {
+    background-position: 0 -340px;
+}
+.ico20_v_collapse {
+    background-position: 0 -280px;
+}
+.ico20_v_collapse:hover {
+    background-position: 0 -300px;
+}
+.mvInfo_row03 .all_link{
+    float:right;
+    line-height: 27px;
+    color:#27d5bf;
+    padding-right:10px;
+}
+.all_link:hover{
+    text-decoration: underline;
+}
+.link_hide{
+    display:none;
+}
+.mvInfo .describe{
+    color:#999;
+    width:1200px;
+    overflow:hidden;
+    max-height:18px;
+    margin:3px 0;
+}
+.videoRelated {
+    height: 124px;
+    width: 1200px;
+    margin-top: 10px;
+    position: relative;
+}
+.mvbox {
+    width: 1200px;
+    height: 124px;
+    overflow: hidden;
+    padding: 0;
+}
+.mvbox_list{
+    width:1250px;
+}
+.mv_picBox {
+    margin-right: 24px;
+    float: left;
+    position: relative;
+}
+.mv_picBox:hover .video_hover{
+    display:block;
+}
+.mv_picBox .pic {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    z-index: 10;
+    font-size: 0px;
+}
+.mv_text {
+    background: url("mv_bg.png")/*tpa=http://s.c.yinyuetai.com/v2/images/app/playlist/mv_bg.png*/ no-repeat;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    top: 0;
+    left: 0;
+    color: #fff;
+    font-size: 12px;
+}
+.mv_text p {
+    display: block;
+    margin-top: 85px;
+    margin-left: 8px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 210px;
+    overflow: hidden;
+    color: #fff;
+}
+.mv_text .mv_text02{
+    color:#26d0bb;
+    margin-top:0px;
+}
+.video_selected {
+    width: 220px;
+    height: 124px;
+    position: absolute;
+    top: 0px;
+    background: url("selected.png")/*tpa=http://s.c.yinyuetai.com/v2/images/app/playlist/selected.png*/ no-repeat;
+    display: none;
+}
+.video_hover {
+    width: 220px;
+    height: 124px;
+    position: absolute;
+    top: 0px;
+    background: url("selected.png")/*tpa=http://s.c.yinyuetai.com/v2/images/app/playlist/selected.png*/ no-repeat;
+    display: none;
+}
+.arrow_pre1, .arrow_next1 {
+    position: absolute;
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    z-index: 200;
+    background: url("arrow.png")/*tpa=http://s.c.yinyuetai.com/v2/images/app/playlist/arrow.png*/ no-repeat;
+    width: 34px;
+    height: 54px;
+}
+.arrow_pre1 {
+    left: -42px;
+    top: 32px;
+    background-position: -35px 0;
+}
+.arrow_next1 {
+    right: -42px;
+    top: 32px;
+    background-position: -67px 0px;
+}
+.arrow_pre1:hover{
+    background-position: 0 0;
+}
+.arrow_next1:hover{
+    background-position: -102px 0;
+}
+.mobilePlay{
+    position:absolute;
+    left:626px;
+    bottom:-35px;
+    width:160px;
+    height:242px;
+    padding:4px;
+    background: url("mobile.png")/*tpa=http://s.c.yinyuetai.com/v2/images/app/playlist/mobile.png*/;
+    display:none;
+    z-index:10;
+}
+.mobileBox{
+    background: #fff;
+    text-align:center;
+}
+.mobileBox .closeBox{
+    background:#000;
+    height:36px;
+    position:relative;
+}
+.closeBox a{
+    background: url("play_icon.png")/*tpa=http://s.c.yinyuetai.com/v2/images/app/playlist/play_icon.png*/ 0 -300px;
+    width:30px;
+    height:30px;
+    position:absolute;
+    top:2px;
+    right:5px;
+}
+.closeBox a:hover{
+    background: url("play_icon.png")/*tpa=http://s.c.yinyuetai.com/v2/images/app/playlist/play_icon.png*/ 0 -330px;
+}
+.mobileBox .mobile_p1{
+    color:#333;
+    font-size:14px;
+}
+.mobileBox .mobile_p2{
+    color:#666;
+    padding-bottom:3px;
+}
+.wihteBox{
+    background: #fff;
+}
+.list_mainBox{
+    width:1200px;
+    margin:0 auto;
+    overflow:hidden;
+}
+.list_mainBox >.fl{
+    border-right:1px solid #e2e2e2;
+    width:800px;
+}
+.list_mainBox >.fr{
+    padding-left:8px;
+    border-left:1px solid #e2e2e2;
+}
+.listDescribe{
+    border-bottom:1px solid #e2e2e2;
+    padding-bottom: 10px;
+}
+.listDescribe h3,.ct_title{
+    color:#9b9b9b;
+    line-height: 50px;
+    font-size:16px;
+}
+.ct_title .f18{
+    font-size:16px;
+}
+.describe_operate{
+    overflow:hidden;
+}
+.pl_icons{
+    width:70px;
+    height:70px;
+    position:relative;
+    margin:0px 7px 0px 5px;
+    float:left;
+}
+.pl_icons img{
+    display: block;
+    width:70px;
+    height:70px;
+}
+.pl_icons a{
+    width:70px;
+    height:70px;
+    position:absolute;
+    top:0;
+    left:0;
+    background-image: url("avatar33.png")/*tpa=http://s.c.yinyuetai.com/v2/images/app/playlist/avatar33.png*/;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+.pl_icons a:hover{
+    background-position: 0 -70px;
+}
+.pl_infos{
+    color:#999;
+    margin:8px 0px 5px;
+}
+.pl_infos a{
+    color:#1fb5a2;
+    font-size:14px;
+  }
+.describe_operate ul{
+    overflow:hidden;
+}
+.describe_operate ul li{
+    float:left;
+    width:82px;
+    height:32px;
+    line-height: 32px;
+    background: #f1f1f1;
+    text-align: center;
+    color:#999;
+    margin-right:3px;
+    cursor:pointer;
+}
+.describe_operate ul li:hover{
+    background: #27d5bf;
+    color:#fff;
+}
+.describe_operate ul .focus{
+    background:#27d5bf url("follow_ico.png")/*tpa=http://s.c.yinyuetai.com/v2/images/app/playlist/follow_ico.png*/ 15px center no-repeat;
+    width:80px;
+    padding-left:25px;
+    color:#fff;
+}
+.describe_operate ul .focus:hover{
+    background:#55dbca url("follow_ico.png")/*tpa=http://s.c.yinyuetai.com/v2/images/app/playlist/follow_ico.png*/ 15px center no-repeat;
+    width:80px;
+    padding-left:25px;
+    color:#fff;
+}
+.describe_operate ul .focused{
+    background:#f1f1f1 url("followed_ico.png")/*tpa=http://s.c.yinyuetai.com/v2/images/app/playlist/followed_ico.png*/ 15px center no-repeat;
+    width:80px;
+    padding-left:25px;
+    color:#999;
+}
+.describe_operate ul .focused:hover{
+    background:#55dbca url("follow_cancel.png")/*tpa=http://s.c.yinyuetai.com/v2/images/app/playlist/follow_cancel.png*/ 15px center no-repeat;
+    width:80px;
+    padding-left:25px;
+    color:#fff;
+}
+.describe_text{
+    padding:0 15px 0 8px;
+    color:#7a7a7a;
+    margin-top:10px;
+    overflow:hidden;
+    max-height: 52px;
+    margin-bottom:5px;
+}
+.describe_all{
+    color:#1fb5a2;
+    float:right;
+    margin-right:15px;
+}
+.describe_all:hover{
+    color:#55dbca;
+    text-decoration: underline;
+}
+.describe_hide{
+    visibility: hidden;
+}
+.listDescribe .tag{
+    color:#999;
+    padding:0 15px 0 8px;
+}
+.listDescribe .tag a{
+    color:#1fb5a2;
+    margin-left:6px;
+}
+.commentBox{
+    padding:0 10px 0 0;
+}
+.comment{
+    padding:0;
+}
+.avatar{
+    border-radius:50%;
+}
+.avatar img{
+    border-radius:50%;
+}
+.ct_tab .cur{
+    color:#27d5bf;
+    border-bottom:2px solid #27d5bf;
+}
+.ct_tab a:hover{
+    color:#27d5bf;
+}
+a.special, .special a,a.special:hover,.special a:hover{
+    color:#27d5bf;
+}
+.otherList > h3,.otherPerson >h3{
+    font-size:16px;
+    color:#9b9b9b;
+    line-height: 50px;
+}
+.ol_tab{
+    margin-top:-5px;
+    padding-bottom:12px;
+    border-bottom:1px solid #e9e9e9;
+    overflow:hidden;
+}
+.ol_tab a{
+    float:left;
+    width:194px;
+    height:35px;
+    line-height: 35px;
+    text-align:center;
+    background:#f1f1f1;
+    color:#999;
+    margin-right:1px;
+}
+.ol_tab a.active,.ol_tab a:hover{
+    background: #34d7c3;
+    color:#fff;
+}
+.otherList{
+    width:390px;
+}
+#new_create{
+    display:none;
+}
+.otherList ul li{
+    width:386px;
+    height:150px;
+    padding:15px 8px 15px 0;
+    border-bottom:1px solid #e9e9e9;
+    position:relative;
+}
+.pl_img{
+    float:left;
+    width:150px;
+    height:150px;
+}
+.pl_img a{
+    display: block;
+    width:150px;
+    height:150px;
+    border:1px solid #fff;
+    overflow:hidden;
+}
+.pl_img a:hover{
+    border:1px solid #65decf;
+}
+.pl_img a img{
+    display: inline-block;
+    height:100%;
+}
+.pl_info{
+    float:left;
+    padding-left:10px;
+}
+.pl_info h3, .pl_info p{
+    width:225px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    margin-top:15px;
+}
+.pl_info h3 a{
+    font-size: 14px;
+    font-weight: bold;
+    color:#7a7a7a;
+}
+.pl_info h3 a:hover{
+    color:#26d0bb;
+    text-decoration: underline;
+}
+.pl_info p em,
+.pl_info p{
+    line-height: 28px;
+    font-size: 12px;
+    color:#999999;
+    margin-top:0px;
+}
+.pl_info .icon{
+    height:40px;
+    position:absolute;
+    bottom:18px;
+    right:15px;
+}
+.pl_info .icon .icon_box{
+    width:40px;
+    height:40px;
+    position:relative;
+    float:left;
+}
+.pl_info .icon .icon_box img{
+    width:40px;
+    height:40px;
+    display: block;
+}
+.pl_info .icon .icon_box a{
+    position:absolute;
+    width:40px;
+    height:40px;
+    left:0;
+    top:0;
+    background-image: url("avatar11.png")/*tpa=http://s.c.yinyuetai.com/v2/images/app/playlist/avatar11.png*/;
+    background-repeat:no-repeat;
+    background-position: 0 0;
+}
+.pl_info .icon .icon_box a:hover{
+    background-position: 0 -40px;
+}
+.pl_info .icon .name{
+    float:left;
+}
+.pl_info .icon .name a{
+    display: block;
+    line-height: 40px;
+    color:#26d0bb;
+    padding-right:7px;
+    max-width: 170px;
+    overflow: hidden;
+    height: 40px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.pl_info .icon .name a:hover{
+    text-decoration: underline;
+}
+.otherPerson{
+    padding-bottom:15px;
+}
+.otherPerson .ol_tab{
+    padding:0;
+    border:0;
+}
+.otherPerson ul li{
+    height:50px;
+    padding:20px 18px;
+    border-bottom:1px solid #e9e9e9;
+}
+#new_reward{
+    display:none;
+}
+.person_icons{
+    width:50px;
+    height:50px;
+    position:relative;
+    float:left;
+    margin-right: 12px;
+}
+.person_icons img{
+    display: block;
+    width:50px;
+    height:50px;
+}
+.person_icons a{
+    width:50px;
+    height:50px;
+    position:absolute;
+    top:0;
+    left:0;
+    background-image: url("avatar44.png")/*tpa=http://s.c.yinyuetai.com/v2/images/app/playlist/avatar44.png*/;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+.person_icons a:hover{
+    background-position: 0 -50px;
+}
+.person_infos{
+    color:#999;
+    margin-top:5px;
+}
+.person_infos a{
+    color:#26d0bb;
+}
+.person_infos a:hover{
+    text-decoration: underline;
+}
+.rewardDialog{
+    width:100%;
+    height:100%;
+}
+.rewardDialog h3{
+    background: #000;
+    height:60px;
+    line-height:60px;
+    color:#8a8a8a;
+    font-size:14px;
+    padding:0 15px;
+    margin-top:-1px;
+    margin-left:-2px;
+    width:653px;
+}
+.rewardDialog p{
+    text-align:center;
+}
+.reward_text01{
+    color:#7a7a7a;
+    margin-top:40px;
+}
+.reward_text01 span{
+    color:#464545;
+    font-weight: bold;
+}
+.reward_text01 i{
+    color:#27d5bf;
+    font-weight: bold;
+}
+.reward_text02{
+    color:#b8b8b8;
+    margin:10px 0 25px;
+}
+.reward_text03{
+    color:#8a8a8a;
+}
+.reward_text03 i{
+    font-weight: bold;
+}
+.reward_text03 input{
+    width:62px;
+    height:30px;
+    padding-left:6px;
+    background: #f5f5f5;
+    border:none;
+    margin:0 8px;
+    color:#8a8a8a;
+}
+.rewardDialog .confirm, .rewardDialog .disable{
+    display:block;
+    width:120px;
+    height:38px;
+    line-height: 38px;
+    text-align:center;
+    background: #27d5bf;
+    color:#fff;
+    font-size:14px;
+    margin:45px auto 0px;
+}
+.rewardDialog .disable{
+    background: #999999;
+}
+.dialog .close{
+    background: url("play_icon.png")/*tpa=http://s.c.yinyuetai.com/v2/images/app/playlist/play_icon.png*/ 0 -300px;
+    width:30px;
+    height:30px;
+    top:15px;
+    right:20px;
+}
+.dialog .close:hover{
+    background: url("play_icon.png")/*tpa=http://s.c.yinyuetai.com/v2/images/app/playlist/play_icon.png*/ 0 -330px;
+}
+.pldown {
+    overflow: hidden;
+}
+.pldown .top {
+    height: 42px;
+    overflow: hidden;
+}
+.pldown .top p {
+    float: right;
+    margin-right: 9px;
+    font-size: 14px;
+    line-height: 42px;
+    color: #666;
+    _display: inline;
+}
+.pldown .top strong {
+    color: #333;
+}
+.pldown .top .select {
+    overflow: hidden;
+    float: left;
+    padding-top: 14px;
+}
+.pldown .top .select .all {
+    display: block;
+    float: left;
+    width: 49px;
+    margin-left: 12px;
+    font-size: 14px;
+    line-height: 15px;
+    color: #666;
+    cursor: pointer;
+    line-height: 18 px\9;
+    _width: 47px;
+    _line-height: 16px;
+}
+.pldown .top .select .all:hover {
+    text-decoration: none;
+}
+.pldown .top .select .check,
+.pldown .top .select .checked {
+    display: block;
+    float: left;
+    height: 16px;
+    width: 16px;
+    margin-right: 4px;
+    background: url("checkbox.png")/*tpa=http://s.c.yinyuetai.com/v2/images/app/video/checkbox.png*/ no-repeat;
+    cursor: pointer;
+    margin-top: -2 px\9;
+    _display: inline;
+    _margin-top: 0px;
+}
+.pldown .top .select .checked {
+    background: url("checkbox.png")/*tpa=http://s.c.yinyuetai.com/v2/images/app/video/checkbox.png*/ no-repeat scroll -17px 0;
+}
+.pldown .mvbox {
+    margin: 10px 0 0 19px;
+    position: relative;
+    overflow: hidden;
+    width: 691px;
+    height: 401px;
+}
+.pldown .content {
+    background-color: #f9f9f9;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    overflow: hidden;
+    _zoom: 1;
+}
+.pldown .content .list {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+}
+.pldown .content .list li {
+    float: left;
+    margin-right: 50px;
+    margin-bottom: 14px;
+}
+.pldown .content .list li.last {
+    margin-right: 0;
+}
+.pldown .content .single {
+    width: 128px;
+}
+.pldown .content .single .downloaded {
+    width: 36px;
+    height: 14px;
+    line-height: 12px;
+    overflow: hidden;
+    position: absolute;
+    left: 4px;
+    bottom: 3px;
+    background-color: #73970f;
+    color: #fff;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+}
+.pldown .content .single .img {
+    display: block;
+    border: 1px solid #999;
+    padding: 3px;
+    position: relative;
+    margin-bottom: 5px;
+}
+.pldown .content .single img {
+    width: 120px;
+    height: 67px;
+}
+.pldown .content .single .img:hover,
+.pldown .content .single .img.checked {
+    text-decoration: none;
+    border: 2px solid #690;
+    padding: 2px;
+}
+.pldown .content .single .img span {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15px;
+    height: 15px;
+    background: url("plstate.png")/*tpa=http://s.c.yinyuetai.com/v2/images/app/video/plstate.png*/ no-repeat;
+    _top: 2px;
+    _left: -2px;
+}
+.pldown .content .single .img.checked span {
+    display: block;
+}
+.pldown .content .single .img.checked:hover {
+    border: 2px solid #c00;
+}
+.pldown .content .single .img.checked:hover span {
+    background-position: -17px 0;
+}
+.pldown .content .single .img img {
+    width: 120px;
+    height: 66px;
+    vertical-align: middle;
+}
+.pldown .content .single .name {
+    font-weight: bold;
+    color: #690;
+    display: block;
+    overflow: hidden;
+    height: 22px;
+}
+.pldown .content .single .artist {
+    height: 22px;
+    overflow: hidden;
+}
+.pldown .content .single .artist span {
+    color: #999;
+}
+.pldown .bottom {
+    height: 70px;
+    background-color: #fff;
+    position: relative;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+.pldown .bottom .text {
+    float: left;
+    margin-left: 16px;
+    font-size: 14px;
+    line-height: 33px;
+    color: #666;
+    _display: inline;
+}
+.pldown .bottom .tips {
+    position: absolute;
+    bottom: 25px;
+    left: 16px;
+    color: #666;
+}
+.pldown .bottom .tips a {
+    color: #690;
+}
+.pldown .bottom p.error {
+    color: #c00;
+}
+.pldown .bottom strong {
+    color: #333;
+}
+.pldown .bottom .buttons {
+    float: right;
+    padding-top: 19px;
+    position: relative;
+}
+.pldown .ico_ct_release,
+.pldown .ico_not_release {
+    line-height: 24px;
+    margin-right: 20px;
+}
+.pldown .ico_not_release:hover {
+    color: #ccc;
+}
+.pldown .ico_ct_cancel {
+    margin-top: -1px;
+    margin-right: 6px;
+    line-height: 26px;
+}
+.pl_info .disable, .pldown .disable {
+    display: none;
+}
+.pldown .scrollbar {
+    width: 5px;
+    margin-left: 8px;
+}
+.pldown .scrollbar .track {
+    position: relative;
+    right: 4px;
+    background-color: #ececec;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+}
+.pldown .scrollbar .thumb {
+    position: absolute;
+    width: 5px;
+    background-color: #9c6;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.pldown .viewport {
+    position: relative;
+    height: 401px;
+    overflow: hidden;
+}
+.pldown .overview {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.pl_detail_info .disable {
+    display: none;
+}
+.flashContainer {
+    position: absolute;
+    z-index: 9;
+    width: 55px;
+    height: 27px;
+    right: 20px;
+    top: 18px;
+}
+.pl_music_tag_container {
+    position: relative;
+    z-index: 300;
+    height: 18px;
+    overflow: hidden;
+    width: 350px;
+}
